@@ -1,11 +1,6 @@
 #include <iostream>
 #include "unitTest.h"
 using namespace std;
-
-
-
-
-
 int main() {
 	unitTest p1;
 	p1.printInput();
@@ -14,8 +9,8 @@ int main() {
 	int p;
 	for (p = 0; p < 16; p++)
 	{
-		p1.makeInput1(a, b, c, d, p);//létrejön az összes bemenet, itt a,b,c,d ref. változók
-		result[p]=p1.functionToTest1(a, b, c, d);//itt a létrjött bemeneteket megkapja a tesztelni való függvény
+		p1.makeInput1(a, b, c, d, p);//the inputs a,b,c,d are generated
+		result[p]=p1.functionToTest1(a, b, c, d);//the inputs are passed to the function which will tested
 	}
 
 
