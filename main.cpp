@@ -12,8 +12,6 @@ int main() {
 		p1.makeInput1(a, b, c, d, p);//the inputs a,b,c,d are generated
 		result[p]=p1.functionToTest1(a, b, c, d);//the inputs are passed to the function which will tested
 	}
-
-
 	for (int i = 0; i < 16; i++)
 	{
 		if (result[i]==true)
@@ -25,11 +23,6 @@ int main() {
 			cout << "error at " << i+1 << " -th permutation" << endl;
 		}
 	}
-
-
 	system("pause");
 	return 0;
 }
-
-
-
