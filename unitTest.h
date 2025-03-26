@@ -4,30 +4,22 @@ class unitTest
 public:
 	unitTest();
 	~unitTest();
-	// true ha a,b,c egyenlıek Ès d hamis, egyÈbkÈnt hamis
-	
 
-	bool functionToTest1(bool a, bool b, bool c, bool d);
-	// ha a Ès b Ès c igaz de d hamis akkor az f2() igaz, egyÈbkÈnt hamis
-	bool functionToTest2(bool a, bool b, bool c, bool d);
-	// ha (a Ès c) vagy (b Ès d) kˆz¸l 
-	//legal·bb az egyik igaz akkor f3() igaz egyÈbkÈnt hamis
-	bool functionToTest3(bool a, bool b, bool c, bool d);
-	//igaz, ha a igaz, de b nem igaz, egyÈbkÈnt hamis
-	bool functionToTest4(bool a, bool b);  
-	//igaz, ha a Ès c egyenlıek, de b hamis, egyÈbkÈnt hamis
-	bool functionToTest5(bool a, bool b, bool c, bool d);
-	//igaz, ha hamis az a Ès a b is Ès b egyenlı c-vel
-	// egyÈbkÈnt hamis
-	bool functionToTest6(bool a, bool b, bool c, bool d);
-
-
-	void makeInput1(bool &a, bool &b, bool &c, bool &d, int p);
-
-	void makeInput2(bool &a, bool &b, bool &c, bool &d, int p);
-
+	void makeInput1(bool& a, bool& b, bool& c, bool& d, int p);
+	void makeInput2(bool& a, bool& b, bool& c, bool& d, int p);
 	void printInput();
 
-	
+	// true ha a,b,c egyenl≈ëek √©s d hamis, egy√©bk√©nt hamis
+	bool functionToTest1(bool a, bool b, bool c, bool d);
+	// ha a √©s b √©s c igaz de d hamis akkor az f2() igaz, egy√©bk√©nt hamis
+	bool functionToTest2(bool a, bool b, bool c, bool d);
+	// ha (a √©s c) vagy (b √©s d) k√∂z√ºl 
+	//legal√°bb az egyik igaz akkor f3() igaz egy√©bk√©nt hamis
+	bool functionToTest3(bool a, bool b, bool c, bool d);
+	//igaz, ha a igaz, de b nem igaz, egy√©bk√©nt hamis
+	bool functionToTest4(bool a, bool b);
+	//igaz, ha a √©s c egyenl≈ëek, de b hamis, egy√©bk√©nt hamis
+	bool functionToTest5(bool a, bool b, bool c, bool d);
+	//igaz, ha hamis az a √©s a b is √©s b egyenl≈ë c-vel, egy√©bk√©nt hamis
+	bool functionToTest6(bool a, bool b, bool c, bool d);
 };
-
